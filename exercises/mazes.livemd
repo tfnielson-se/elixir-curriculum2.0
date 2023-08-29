@@ -142,7 +142,7 @@ maze = %{
             "west" => %{
               "south" => %{
                 "east" => %{
-                  "south" => "Exit!"
+                  south: "Exit!"
                 }
               }
             }
@@ -190,7 +190,7 @@ treasure_map = %{
       :"east three paces" => %{
         [1, 2, 3] => %{
           {"turn", "right"} => %{
-            :dig => "gold"
+            dig: "gold"
           }
         }
       }
@@ -260,7 +260,7 @@ treasure_map = %{
       :"east three paces" => %{
         [1, 2, 3] => %{
           {"turn", "right"} => %{
-            :dig => "gold"
+            dig: "gold"
           }
         }
       }
@@ -283,7 +283,7 @@ maze = %{
             "west" => %{
               "south" => %{
                 "east" => %{
-                  "south" => "Exit!"
+                  south: "Exit!"
                 }
               }
             }
